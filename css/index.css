@@ -1,0 +1,28 @@
+@import './variables.css';
+
+/* Start Default Style */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*:after,*:before{
+    outline: none;
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 400ms ease;
+}
+a:hover{
+    color: #1e83fe;
+}
+i{
+    user-select: none;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: var(--primary-font);
+}
+/* Finish Default Style */
